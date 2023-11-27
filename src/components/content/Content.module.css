@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 257px;
+}
+.counter {
+    color: #F27C0F;
+    text-align: center;
+    font-size: 288px;
+    font-weight: 400;
+    line-height: normal;
+}
+.buttons_menu {
+    display: flex;
+    gap: 55px;
+}
+.button {
+    width: 200px;
+    height: 58px;
+    border-radius: 4px;
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.buttons_blue {
+    background: #039;
+}
+.buttons_yellow {
+    background: #F27C0F;
+
+}
+.buttons_grey {
+    background: #E5E5E5;
+    color: #000;
+}
